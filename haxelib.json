@@ -1,0 +1,17 @@
+{
+	"name": "hxbis",
+	"license": "MIT",
+	"tags": [
+		"json",
+		"serialization",
+		"data format"
+	],
+	"classPath": "src",
+	"description": "Binary serialization format",
+	"contributors": [
+		"storm_ex"
+	],
+	"releasenote": "Initial release",
+	"version": "0.0.1",
+	"url": "https://github.com/StormEx/hxbis"
+}
