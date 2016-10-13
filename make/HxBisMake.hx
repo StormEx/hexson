@@ -35,7 +35,7 @@ class HxBisMake extends hxmake.Module {
 
 		var tt = new TestTask();
 		tt.targets = ["neko", "swf", "js", "node", "cpp", "java", "cs", "php"];
-		tt.libraries = ["hexson"];
+		tt.libraries = ["hxbis"];
 		task("test", tt);
 	}
 }
