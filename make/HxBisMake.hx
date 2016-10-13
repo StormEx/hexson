@@ -27,7 +27,7 @@ class HxBisMake extends hxmake.Module {
 				ext.config.license = "MIT";
 				ext.config.version = "0.0.1";
 				ext.config.releasenote = "Initial release";
-				ext.config.tags = ["json", "serialization", "data format"];
+				ext.config.tags = ["json", "serialization", "data", "format"];
 
 				ext.pack.includes = ["src", "haxelib.json", "README.md"];
 			}
