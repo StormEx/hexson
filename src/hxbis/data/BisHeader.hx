@@ -1,5 +1,6 @@
 package hxbis.data;
 
+import haxe.io.BytesOutput;
 import haxe.io.BytesInput;
 
 class BisHeader {
@@ -27,5 +28,9 @@ class BisHeader {
 		header.stringMap = BisStringMap.read(stream);
 
 		return header;
+	}
+
+	public function write(stream:BytesOutput) {
+
 	}
 }

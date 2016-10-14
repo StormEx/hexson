@@ -1,5 +1,6 @@
 package hxbis.data;
 
+import haxe.io.BytesOutput;
 import haxe.io.Bytes;
 import haxe.Int64;
 import haxe.io.BytesInput;
@@ -134,5 +135,9 @@ class BisBlock {
 		}
 
 		return data;
+	}
+
+	static public function write(stream:BytesOutput, obj:Dynamic) {
+
 	}
 }
